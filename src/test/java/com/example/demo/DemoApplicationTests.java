@@ -26,8 +26,8 @@ public class DemoApplicationTests {
 //		redisTemplate.opsForList().leftPush("list","1");
 //		redisTemplate.opsForList().leftPush("list","2");
 //		redisTemplate.opsForList().leftPush("list","3");
-//		redisTemplate.opsForList().leftPush("list","4");
-		redisTemplate.opsForList().leftPop("list");
+		redisTemplate.opsForList().leftPush("list","4");
+//		redisTemplate.opsForList().leftPop("list");
 	}
 
 	@Test
